@@ -47,16 +47,16 @@ const MovieDetails = () => {
                         />
                         <div className="justify-content-center text-center  mx-auto">
                             <p className="card-text-details border-bottom">
-                               <span style={{color:" black"}}>Movie Name:</span> {movie.title}
+                               Movie Name: {movie.title}
                             </p>
                             <p className="card-text-details border-bottom">
-                                  <span style={{color:" black"}}> Release Date :</span> {movie.release_date}
+                                 Release Date: {movie.release_date}
                             </p>
                             <p className="card-text-details border-bottom">
-                                  <span style={{color:" black"}}> Votes Numbers:</span>  {movie.vote_count}
+                                 Votes Numbers: {movie.vote_count}
                             </p> 
                             <p className="card-text-details border-bottom">
-                                  <span style={{color:" black"}}>Rating:</span> {movie.vote_average}
+                                 Rating: {movie.vote_average}
                             </p>
                         </div>
                     </div>
