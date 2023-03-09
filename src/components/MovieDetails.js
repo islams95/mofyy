@@ -70,7 +70,8 @@ const MovieDetails = () => {
                             <p className="card-text-title border-bottom">Overview:</p>
                         </div>
                         <div className="text-start px-2">
-                            <p className="card-text-story">{movie.overview}</p>
+                            <p className="card-text-story"> {truncateString(movie?.overview, 250)}</p>
+                           
                         </div>
                     </div>
                 </Col>
