@@ -11,6 +11,13 @@ const MovieDetails = () => {
     const [movie, setMovie] = useState([])
     const [tr, setTr] = useState([])
  
+const truncateString = (str, num) => {
+    if (str?.length > num) {
+      return str.slice(0, num) + '...';
+    } else {
+      return str;
+    }
+  };
 
     //get  movie by details 
     const getMovieDetails = async () => {
