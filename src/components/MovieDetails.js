@@ -21,7 +21,7 @@ const truncateString = (str, num) => {
 
     //get  movie by details 
     const getMovieDetails = async () => {
-        const response = await axios.get(`https://api.themoviedb.org/3/movie/${param.id}?api_key=2717e7f029d8ae2699391ade9b105cda&language=enus`)
+        const response = await axios.get(`https://api.themoviedb.org/3/movie/${param.id}?api_key=b17bcbed865c50f6e51d550d06e0884e&language=enus`)
         setMovie(response.data)
     }
    const getMoviet = axios.get(`http://api.themoviedb.org/3/movie/${param.id}/videos?api_key=2717e7f029d8ae2699391ade9b105cda`)
